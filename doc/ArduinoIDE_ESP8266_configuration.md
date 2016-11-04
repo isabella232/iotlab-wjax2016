@@ -19,7 +19,6 @@ Taken From https://github.com/esp8266/Arduino:
 
   ![Preferences](images/arduino_ide_additional_boards.png)
   * Open `Boards Manager` from `Tools` > `Board` menu and install `esp8266 by ESP8266 community` (click & select install). In case you encouter an error message at the bottom of the `Boards Manager` like `Error downloading http://downloads.arduino.cc/packages/package_index.json` open a terminal and issue the command `rm ~/Library/Arduino15/package_index.json*` (see [Issue 4623](https://github.com/arduino/Arduino/issues/4623)). Then restart the IDE and try to install the `esp8266 by ESP8266 community` again. This takes a while, since the ESP8266 SDK will be downloaded.
-
   ![Preferences](images/arduino_ide_esp8266_board_install.png)
   * Select `NodeMCU 1.0 (ESP-12E Platform)` board from `Tools` > `Board` menu after installation to activate compilation for the ESP8266 platform.
 
@@ -27,6 +26,7 @@ Taken From https://github.com/esp8266/Arduino:
 We are going to use the [PubSubClient MQTT-Library](http://pubsubclient.knolleary.net), which will be installed using the Library manager of the Arduino IDE:
   * select `Sketch` > `Include Library` > `Manage Libraries ...` to open the library
     Manager.
+
   * enter `PubSubClient` in the search field and select the entry labeled `PubSubClient by Nick O'Leary`:
   ![Preferences](images/arduino_ide_mqtt_install.png)
   * Press `install` to download and install the library

@@ -12,7 +12,7 @@ In order to participate in the Lab, you need a computer running the **Arduino-ID
 
   * [Installation instructions Linux](ArduinoIDE_Linux.md)
   * [Installation instructions Windows and Mac OS X](ArduinoIDE_Windows.md)
-  * All platforms: [Configuration of the Arduino-IDE](ArduinoIDE_ESP8266_configuration) for use with the ESP8266
+  * All platforms: [Configuration of the Arduino-IDE](ArduinoIDE_ESP8266_configuration.md) for use with the ESP8266
 
 **Since we have a tight timeline in the lab, please prepare your computer before the lab starts. We will not have time during the lab to perform the above noted steps.**
 
