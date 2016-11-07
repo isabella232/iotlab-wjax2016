@@ -1,6 +1,6 @@
 # IoT-Lab: Arduino IDE configuration for use with ESP8266
 
-Now that we have successfully set up the Arduino IDE, we need to install support for the ESP8266 as well as the necessary libraries (e.g. MQTT).
+Now that we have successfully set up the Arduino IDE, we need to install support for the ESP8266 as well as the necessary libraries (e.g. a MQTT client).
 
 These steps are done in the Arduino IDE and are the same for all platforms.
 

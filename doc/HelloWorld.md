@@ -1,5 +1,5 @@
 # IoT-Lab: *Hello, world!*
-Now that everything is set up, it's time for a first test. We will let the builtin LED of the NodeMCU board blink.
+Now that everything is set up, it's time for a first test. We will run our first sketch: the embedded version of the famous "Hello, world!". Will let the builtin LED of the NodeMCU board blink.
 
 <img src="images/NodeMCU_schematicLED.png" alt="NodeMCU">
 
@@ -9,7 +9,7 @@ A `sketch` is a program (firmware) for an Arduino or similar micro controller. S
 ### Anatomy of a sketch
 A sketch is written in C++ and has always the same structure, consisting of
   * a `setup()` function, which is called once, when the sketch starts, and
-  * a `loop()` function, which is run over and over  again.
+  * a `loop()` function, which is run over and over again, and executing the main program logic.
 
 ``` c++
 void setup() {
@@ -19,16 +19,17 @@ void setup() {
 void loop() {
   /* this function is run over and over again */
 }
+
 ```
 
 ## `Hello, world!` Instructions
   * connect the NodeMCU with the USB cable to your computer
   * start the Arduino-IDE
   * make sure that under `Tools > Board` the `NodeMCU 1.0 (ESP-12E Module)` board is selected
-  * make sure that under `Tools > Port` the right port is selected (e.g. /dev/ttyUSB0)
-  * enter or copy the "hello, world" sketch from below into the editor window
+  * make sure that under `Tools > Port` the right port is selected (e.g. `/dev/ttyUSB0` or `COM4`)
+  * enter or copy the `Hello, World!` sketch from below into the editor window
   * click the `Upload` button. This will compile the sketch and on success upload it to the board.
-  * on success, the builtin LED of the board will start to blink
+  * on success, the builtin LED of the board will start to blink. Note that the code is executed by the micro controller. Once the sketch development is done and the firmware is uploaded to the micro controller, the host PC is no longer needed (provided that the micro controller is connected to a power supply).
 
 ## The `Hello, world!` sketch
 Copy the following code into the the Arduino IDE and select "Verify/Compile" from the Sketch Menu.
