@@ -41,6 +41,8 @@ The message infrastructure and the order service will not be built as part of th
   2. Start with the [Hello, world!](HelloWorld.md) sketch
   3. [Set up our hardware device, the ordering button](Hardware_Setup.md)
   4. [Implement the firmware for the device](Firmware_Development.md)
+  5. [Testing](Testing.md) and [Debugging](Debugging.md) of the firmware.
+  6. [Closing words](Closing_Word.md)
 
 ## Repository layout
   ```
