@@ -37,7 +37,7 @@ The message infrastructure and the order service will not be built as part of th
 
 ## Structure of the Lab
 
-  1. [Check the prerequisites and set up your computer](LabPrerequisites.md) ([general instructions](ArduinoIDE_ESP8266_configuration.md), [Windows/Mac OS X specific](ArduinoIDE_Windows.md), [Linux specific](ArduinoIDE_Linux.md))
+  1. [Check the prerequisites and set up your computer](LabPrerequisites.md) ( [Windows/Mac OS X specific](ArduinoIDE_Windows.md), [Linux specific](ArduinoIDE_Linux.md), [general instructions for all platforms](ArduinoIDE_ESP8266_configuration.md))
   2. Start with the [Hello, world!](HelloWorld.md) sketch
   3. [Set up our hardware device, the ordering button](Hardware_Setup.md)
   4. [Implement the firmware for the device](Firmware_Development.md)
