@@ -8,4 +8,4 @@
   **Since we have a tight timeline in the lab, please prepare your computer before the lab starts. We will not have time during the lab to install and configure the required software.**
 * [Start with the Lab here (includes the introduction)](doc/README.md)
 
-Content will be next updated on Nov 11th 2016.
+Content will be next updated on Nov 8th 2016.
