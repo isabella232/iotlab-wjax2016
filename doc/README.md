@@ -55,4 +55,4 @@ The message infrastructure and the order service will not be built as part of th
   ```
 
 ---
-Next: [Check prerequisites for the Lab](doc/LabPrerequisites.md)
+Next: [Check prerequisites for the Lab](LabPrerequisites.md)
