@@ -25,7 +25,7 @@ $ /opt/arduino-1.16.12/arduino &
 Note: of course you can install the Arduino-IDE to a different directory, where no admin/sudo rights are
 required for installation.
 
-No we are ready to install the ESP8266 support as well as the required libraries.
+Now we are ready to install the ESP8266 support as well as the required libraries.
 
 ---
 Next: [configuration of the Arduino-IDE for use with the ESP8266](ArduinoIDE_ESP8266_configuration.md)
