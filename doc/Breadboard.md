@@ -6,7 +6,7 @@ The breadboard is used to wire our components together.
 Image attribution: [CC BY-SA 2.0](https://commons.wikimedia.org/wiki/File:400_points_breadboard.jpg)
 
 ## Wiring scheme
-<img src="images/Breadboard_scheme.svg">
+<img src="images/Breadboard_scheme.png">
 
 Image attribution: [CC BY-SA 3.0](https://commons.wikimedia.org/wiki/File:Breadboard_scheme.svg)
 
