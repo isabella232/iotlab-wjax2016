@@ -15,7 +15,7 @@ To quickly wire everything up, we use a [Breadboard](Breadboard.md). The breadbo
 ## List of parts
 The ordering button device just needs a handful of components:
   * a [Breadboard](Breadboard.md) for mounting components
-  * the [NodeMCU](https://en.wikipedia.org/wiki/NodeMCU) prototyping board with ESP8266 micro controller
+  * the [NodeMCU](https://en.wikipedia.org/wiki/NodeMCU) prototyping board with ESP8266 micro controller [compatible](http://frightanic.com/iot/comparison-of-esp8266-nodemcu-development-boards/) with the breadboard
   * a switch/push button (SW)
   * a [LED](https://en.wikipedia.org/wiki/Light-emitting_diode) and [resistor](https://en.wikipedia.org/wiki/Resistor) (R)
   * some cables for patching the components together
