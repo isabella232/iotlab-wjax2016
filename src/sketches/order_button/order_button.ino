@@ -78,7 +78,7 @@ void onButtonChanged(bool state) {
     // let the feedback led flash for 250ms publish the order message
     blinkLed(&g_ledFeedback, 1, 250);
     // publish the order message
-    g_mqtt.publish(MQTT_TOPIC "/" DEVICE_ID "/order", "");
+    g_mqtt.publish(MQTT_TOPIC "/" DEVICE_ID "/order", "1");
   }
 }
 
